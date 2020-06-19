@@ -6,6 +6,12 @@
 
 module.exports = {
   /* Your site config here */
+  siteMetadata: {
+    title:`Bly`,
+    description:`おいしい食材と食事を探究するサイト`,
+    lang:`ja`,
+    siteUrl:`https://flamboyant-hoover-723e92.netlify.app`,
+  },
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
@@ -16,5 +22,6 @@ module.exports = {
         path: `${__dirname}/src/images/`,
       },
     },
+    `gatsby-plugin-react-helmet`
   ],
 }
