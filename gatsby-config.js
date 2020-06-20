@@ -26,13 +26,13 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `ESSENTIALS エッセンシャルズ`,
+        name: `Bly`,
         short_name: `ESSENTIALS`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#477294`,
         display: `standalone`,
-        icon: `src/images/icon-maskable.png`,
+        icon: `src/images/icon.png`,
         icon_options: {
           purpose: `maskable`,
         },
