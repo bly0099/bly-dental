@@ -64,6 +64,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
       path: i === 0 ? `/blog/` : `/blog/${i + 1}/`,
       component: path.resolve("./src/templates/blog-template.js"),
       context: {
+        child: node.id,
         skip: blogPostsPerPage * i,
         limit: blogPostsPerPage,
         currentPage: i + 1, //現在のページ番号
@@ -86,7 +87,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             : `/cat/${node.categorySlug}/${i + 1}/`,
         component: path.resolve(`./src/templates/cat-template.js`),
         context: {
-          catid: node.id,
           catname: node.category,
           catslug: node.categorySlug,
           skip: catPostsPerPage * i,
