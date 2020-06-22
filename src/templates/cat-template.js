@@ -11,7 +11,7 @@ import {
   faChevronRight,
 } from "@fortawesome/free-solid-svg-icons"
 
-const BlogTemp = ({ data, location, pageContext }) => (
+const CatTemp = ({ data, location, pageContext }) => (
   <Layout>
     <SEO
       pagetitle={`CATEGORY: ${pageContext.catname}`}
@@ -46,8 +46,10 @@ const BlogTemp = ({ data, location, pageContext }) => (
               <Link
                 to={
                   pageContext.currentPage === 2
-                    ? `/blog/`
-                    : `/blog/${pageContext.currentPage - 1}/`
+                    ? `/cat/${pageContext.catslug}/`
+                    : `/cat/${pageContext.catslug}/${
+                    pageContext.currentPage - 1
+                    }/`
                 }
                 rel="prev"
               >
@@ -58,8 +60,13 @@ const BlogTemp = ({ data, location, pageContext }) => (
           )}
           {!pageContext.isLast && (
             <li className="next">
-              <Link to={`/blog/${pageContext.currentPage + 1}/`} rel="next">
-                <span>次のページ</span>
+              <Link
+                to={`/cat/${pageContext.catslug}/${
+                  pageContext.currentPage + 1
+                  }/`}
+                rel="next"
+              >
+                <span> 次のページ</span>
                 <FontAwesomeIcon icon={faChevronRight} />
               </Link>
             </li>
@@ -76,7 +83,7 @@ export const query = graphql`
       sort: { order: DESC, fields: publishDate }
       skip: $skip
       limit: $limit
-      filter:{ category: { elemMatch: { id: { eq: $catid } } } }
+      filter: { category: { elemMatch: { id: { eq: $catid } } } }
     ) {
       edges {
         node {
@@ -95,4 +102,4 @@ export const query = graphql`
   }
 `
 
-export default BlogTemp
+export default CatTemp
