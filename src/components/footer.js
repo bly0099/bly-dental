@@ -1,6 +1,6 @@
 import React from "react"
-import { graphql, useStaticQuery, Link } from "gatsby"
-import Img from "gatsby-image"
+import { Link } from "gatsby"
+// import Img from "gatsby-image"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
@@ -10,17 +10,17 @@ import {
 } from "@fortawesome/free-brands-svg-icons"
 
 export default () => {
-  const data = useStaticQuery(graphql`
-    query {
-      pattern: file(relativePath: { eq: "pattern.jpg" }) {
-        childImageSharp {
-          fluid(maxWidth: 1920, quality: 90) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `)
+  // const data = useStaticQuery(graphql`
+  //   query {
+  //     pattern: file(relativePath: { eq: "pattern.jpg" }) {
+  //       childImageSharp {
+  //         fluid(maxWidth: 1920, quality: 90) {
+  //           ...GatsbyImageSharpFluid_withWebp
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
 
   return (
     <footer className="footer">
@@ -63,13 +63,13 @@ export default () => {
           </li>
         </ul>
       </div>
-      <div className="back">
+      {/* <div className="back">
         <Img
           fluid={data.pattern.childImageSharp.fluid}
           alt=""
           style={{ height: "100%" }}
         />
-      </div>
+      </div> */}
     </footer>
   )
 }

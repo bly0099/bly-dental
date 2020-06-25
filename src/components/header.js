@@ -31,6 +31,10 @@ export default () => (
             <li>
               <Link to={`/blog/`}>BLOG</Link>
             </li>
+            <li>
+              SEMINAR
+              {/* <Link to={`/blog/`}>BLOG</Link> */}
+            </li>
           </ul>
         </nav>
       </div>
