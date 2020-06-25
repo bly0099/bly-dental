@@ -5,8 +5,11 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faUtensils, faCheckSquare } from "@fortawesome/free-solid-svg-icons"
+import { faTooth, faCheckSquare } from "@fortawesome/free-solid-svg-icons"
 
+import {
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons"
 import SEO from "../components/seo"
 
 export default ({ data, location }) => (
@@ -23,43 +26,64 @@ export default ({ data, location }) => (
       <figure>
         <Img
           fluid={data.about.childImageSharp.fluid}
-          alt="ブルーベリー＆ヨーグルト"
+          alt="dental"
         />
       </figure>
     </div>
     <article className="content">
       <div className="container">
-        <h1 className="bar">ESSENTIALSについて</h1>
+        <h1 className="bar">Bly'について</h1>
         <aside className="info">
           <div className="subtitle">
-            <FontAwesomeIcon icon={faUtensils} />
-            ABOUT ESSENTIALS
+            <FontAwesomeIcon icon={faTooth} />
+            ABOUT Bly'
           </div>
         </aside>
         <div className="postbody">
           <p>
-            体に必要不可欠な食べ物についての情報を発信しているサイトです。「おいしい食材をおいしく食べる」をモットーにしています。特に力を入れているのが、フルーツ、穀物、飲み物の３つです。
+          専門的であり、臨床において即戦力になる歯科衛生士を育成。Bly’のセミナーで感化された歯科衛生士がそれぞれ自分が関わる患者に還元していき、自分の糧にもできる事を目標としている。
           </p>
           <h2>
             <FontAwesomeIcon icon={faCheckSquare} />
-            公開している記事
+            メンバー
           </h2>
-          <p>
-            これらについて、次のような記事やレシピなどを書いて公開しています。
-          </p>
           <ul>
-            <li>ヘルシーで美味しい料理の研究・レビュー・レシピ。</li>
-            <li>一人でも、家族や友人と一緒にでも楽しめる料理。</li>
-            <li>ユーザー間のオープンなコミュニケーションを基盤とした情報。</li>
+            <li>歯科衛生士の母neo<a href="https://twitter.com/">
+              <FontAwesomeIcon icon={faTwitter} />
+              <span className="sr-only"> Twitter </span>
+            </a></li>
+            <li>三木　武寛<a href="https://twitter.com/">
+              <FontAwesomeIcon icon={faTwitter} />
+              <span className="sr-only"> Twitter </span>
+            </a></li>
+            <li>小川　信<a href="https://twitter.com/">
+              <FontAwesomeIcon icon={faTwitter} />
+              <span className="sr-only"> Twitter </span>
+            </a></li>
+            <li>高見澤　亜衣<a href="https://twitter.com/">
+              <FontAwesomeIcon icon={faTwitter} />
+              <span className="sr-only"> Twitter </span>
+            </a></li>
+            <li>DH MARIE<a href="https://twitter.com/">
+              <FontAwesomeIcon icon={faTwitter} />
+              <span className="sr-only"> Twitter </span>
+            </a></li>
+            <li>高橋　佳奈<a href="https://twitter.com/">
+              <FontAwesomeIcon icon={faTwitter} />
+              <span className="sr-only"> Twitter </span>
+            </a></li>
           </ul>
           <h2>
             <FontAwesomeIcon icon={faCheckSquare} />
-            よく聞かれること
+            ブリーの活動予定
           </h2>
-          <p>
-            よく聞かれることなのですが、私たちはスタートアップではありません。私たちはまだスタートしたばかりで、より多くの人々が食べやすい食べ物がもたらす違いを発見できるように、成長しサービスを改善する機会を待っています。
-          </p>
-          <p>気長にお付き合いいただければ幸いです。</p>
+          <ul>
+            <li>R2.8　本格始動。セミナー日時発表。</li>
+            <li>R2.11　キックオフミーティング開催。（名古屋）</li>
+            <li>R3.1〜計７回のセミナーを開催。（名古屋）</li>
+            <li>R4.11　キックオフミーティング開催。（東京）</li>
+            <li>R4.1〜計７回のセミナーを開催。（東京）</li>
+          </ul>
         </div>
       </div>
     </article>
