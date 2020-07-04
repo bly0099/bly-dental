@@ -40,7 +40,7 @@ export default () => {
               />
             </svg> */}
             </Link>
-            <a href="https://form.run/@bly-io--1590665142">
+            <a href="https://form.run/@shikaroom-1593872411">
             <p> Bly-dental-japan お問い合わせ </p>
             </a>
           
