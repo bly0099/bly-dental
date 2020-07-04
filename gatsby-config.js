@@ -8,9 +8,9 @@ module.exports = {
   /* Your site config here */
   siteMetadata: {
     title:`Bly`,
-    description:`おいしい食材と食事を探究するサイト`,
+    description:`ブリー　歯科チーム`,
     lang:`ja`,
-    siteUrl:`https://flamboyant-hoover-723e92.netlify.app`,
+    siteUrl:`https://bly-dental-japan.com`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
@@ -27,7 +27,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Bly`,
-        short_name: `ESSENTIALS`,
+        short_name: `BLY`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#477294`,

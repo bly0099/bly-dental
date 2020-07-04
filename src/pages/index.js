@@ -20,24 +20,12 @@ const Home = ({ data }) => (
         />
       </figure>
       <div className="catch">
-        <h1>
-          Bly'
-        </h1>
-        <h2>R２.11.. KICK OFF MEETING!! <a href="https://form.run/@bly-io--1590664739">→subscription</a></h2>
+        <h1>Bly'</h1>
+        <h2>
+          R２.11.. KICK OFF MEETING!!{" "}
+          <a href="https://form.run/@shikaroom-1593872411">→subscription</a>
+        </h2>
       </div>
-      {/* <div className="wave">
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          viewBox="0 0 1366 229.5"
-          fill="#fff"
-        >
-          <path
-            d="M1369,6.3C1222.5-12.2,1189.5,8,919.2,96.6C665,179.8,160,141.7-2,53.1v150l1371-14.2V6.3z"
-            opacity=".53"
-          />
-          <path d="M1369 229.5V55.8c-9.5-2.4-19.2-4.4-28.9-5.8-196.9-29.9-203.4-15.8-503.9 82.6-219.8 72-627.6 53.2-838.2-10.5v107.4h1371z" />
-        </svg>
-      </div> */}
     </section>
     {/* <section className="food">
       <div className="container">
@@ -128,60 +116,11 @@ export const query = graphql`
         }
       }
     }
-    fruit: file(relativePath: { eq: "fruit.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 320) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    grain: file(relativePath: { eq: "grain.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 320) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    beverage: file(relativePath: { eq: "beverage.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 320) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    berry: file(relativePath: { eq: "berry.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1600) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    pattern: file(relativePath: { eq: "pattern.jpg" }) {
-      childImageSharp {
-        fluid(maxWidth: 1920, quality: 90) {
-          ...GatsbyImageSharpFluid_withWebp
-        }
-      }
-    }
-    allContentfulBlogPost(
-      sort: { order: DESC, fields: publishDate }
-      skip: 0
-      limit: 4
-    ) {
-      edges {
-        node {
-          title
-          id
-          slug
-          eyecatch {
-            fluid(maxWidth: 573) {
-              ...GatsbyContentfulFluid_withWebp
-            }
-            description
-          }
-        }
-      }
-    }
+    
+    
+    
+    
+    
   }
 `
 

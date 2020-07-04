@@ -33,8 +33,7 @@ export default () => (
               <Link to={`/blog/`}>BLOG</Link>
             </li>
             <li>
-              SCKEDULE
-              {/* <Link to={`/blog/`}>BLOG</Link> */}
+              <Link to={`/sckedule/`}>SCKEDULE</Link>
             </li>
           </ul>
         </nav>
