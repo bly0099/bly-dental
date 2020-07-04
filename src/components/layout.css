@@ -67,7 +67,7 @@ svg {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	height: 134px;
+	height: 104px;
 	text-align: center;
 }
 
@@ -117,32 +117,32 @@ svg {
 	top: 0;
 	right: 0;
 	bottom: 0;
-	left: 0;
+	left: 20px;
 	margin: auto auto 10%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	/* text-align: center; */
-	color: #fff;
+	color: rgb(29, 24, 24);
 	text-shadow: 0 0 20px rgba(0,0,0,0.5);
 }
 
 .hero .catch h1 {
-	font-size: 20px;
+	font-size: 60px;
 	margin-bottom: 10px;
 }
 .hero .catch p {
 	font-size: 10px;
 }
 
-.hero .wave {
+/* .hero .wave {
 	position: absolute;
 	right: 0;
 	bottom: -10px;
 	left: 0;
 	margin: auto;
 	width: 100%;
-}
+} */
 
 @media (min-width: 768px) {
 	.hero figure{
@@ -152,17 +152,17 @@ svg {
 		height: 750px;
 	}
 	.hero .catch h1 {
-		font-size: 40px;
+		font-size: 100px;
 		margin-bottom: 30px;
 	}
-	.hero .catch p {
+	/* .hero .catch p {
 		font-size: 16px;
-	}
+	} */
 }
 
 @media (min-width: 900px) {
 	.hero .catch h1 {
-		font-size: 56px;
+		font-size: 100px;
 		margin-bottom: 30px;
 	}
 	.hero .catch p {
@@ -304,8 +304,8 @@ svg {
 
 /* フッター */
 .footer {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 	color: #477294;
     background-image: none;
     background-size: cover;
@@ -329,8 +329,8 @@ svg {
 
 @media (min-width: 768px) {
 	.footer {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
 	}
 
 	.footer .container {

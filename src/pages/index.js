@@ -21,10 +21,8 @@ const Home = ({ data }) => (
       </figure>
       <div className="catch">
         <h1>
-          There is no love sincerer than
-          <br /> the love of food.
+          Bly'
         </h1>
-        <p>Bly’（ブリー）歯科チーム</p>
       </div>
       {/* <div className="wave">
         <svg
