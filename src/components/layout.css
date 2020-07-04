@@ -131,8 +131,8 @@ svg {
 	font-size: 60px;
 	margin-bottom: 10px;
 }
-.hero .catch p {
-	font-size: 10px;
+.hero .catch h2 {
+	font-size: 16px;
 }
 
 /* .hero .wave {
@@ -155,9 +155,9 @@ svg {
 		font-size: 100px;
 		margin-bottom: 30px;
 	}
-	/* .hero .catch p {
-		font-size: 16px;
-	} */
+	.hero .catch h2 {
+		font-size: 24px;
+	}
 }
 
 @media (min-width: 900px) {
@@ -165,9 +165,10 @@ svg {
 		font-size: 100px;
 		margin-bottom: 30px;
 	}
-	.hero .catch p {
-		font-size: 24px;
+	.hero .catch h2 {
+		font-size: 32px;
 	}
+	
 }
 
 

@@ -23,6 +23,7 @@ const Home = ({ data }) => (
         <h1>
           Bly'
         </h1>
+        <h2>R２.11.. KICK OFF MEETING!! <a href="https://form.run/@bly-io--1590664739">→subscription</a></h2>
       </div>
       {/* <div className="wave">
         <svg
