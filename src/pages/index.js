@@ -23,7 +23,7 @@ const Home = ({ data }) => (
         <h1>Bly'</h1>
         <h2>
           R２.11.. KICK OFF MEETING!!{" "}
-          <a href="https://form.run/@shikaroom-1593872411">→subscription</a>
+          <a href="https://form.run/@shikaroom-1594383067">→subscription</a>
         </h2>
       </div>
     </section>
@@ -116,11 +116,6 @@ export const query = graphql`
         }
       }
     }
-    
-    
-    
-    
-    
   }
 `
 
