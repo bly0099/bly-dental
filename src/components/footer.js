@@ -1,7 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
 // import Img from "gatsby-image"
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faTwitter,
