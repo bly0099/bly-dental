@@ -54,7 +54,7 @@ export default ({ data, location }) => (
               </p>
             </div>
             <figure>
-              <img src="/images/neo01.jpg" alt="" />
+              <img src="/images/neo01.png" alt="" />
             </figure>
           </div>
         </div>
@@ -69,7 +69,7 @@ export default ({ data, location }) => (
             </p>
           </div>
           <figure>
-            <img src="/images/miki01.jpg" alt="" />
+            <img src="/images/miki01.png" alt="" />
           </figure>
         </div>
         <div className="detail">
@@ -84,7 +84,7 @@ export default ({ data, location }) => (
             </p>
           </div>
           <figure>
-            <img src="/images/takamisawa01.jpg" alt="" />
+            <img src="/images/takamisawa01.png" alt="" />
           </figure>
         </div>
       </div>
