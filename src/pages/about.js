@@ -7,9 +7,7 @@ import Layout from "../components/layout"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faTooth, faCheckSquare } from "@fortawesome/free-solid-svg-icons"
 
-import {
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons"
+import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import SEO from "../components/seo"
 
 export default ({ data, location }) => (
@@ -24,10 +22,7 @@ export default ({ data, location }) => (
     />
     <div className="eyecatch">
       <figure>
-        <Img
-          fluid={data.about.childImageSharp.fluid}
-          alt="dental"
-        />
+        <Img fluid={data.about.childImageSharp.fluid} alt="dental" />
       </figure>
     </div>
     <article className="content">
@@ -41,37 +36,56 @@ export default ({ data, location }) => (
         </aside>
         <div className="postbody">
           <p>
-          専門的であり、臨床において即戦力になる歯科衛生士を育成。Bly’のセミナーで感化された歯科衛生士がそれぞれ自分が関わる患者に還元していき、自分の糧にもできる事を目標としている。
+            専門的であり、臨床において即戦力になる歯科衛生士を育成。Bly’のセミナーで感化された歯科衛生士がそれぞれ自分が関わる患者に還元していき、自分の糧にもできる事を目標としている。
           </p>
           <h2>
             <FontAwesomeIcon icon={faCheckSquare} />
             メンバー
           </h2>
+          <img src="images/marie01.jpg" class="image3"></img>
           <ul>
-            <li>歯科衛生士の母neo<a href="https://twitter.com/">
-              <FontAwesomeIcon icon={faTwitter} />
-              <span className="sr-only"> Twitter </span>
-            </a></li>
-            <li>三木　武寛<a href="https://twitter.com/">
-              <FontAwesomeIcon icon={faTwitter} />
-              <span className="sr-only"> Twitter </span>
-            </a></li>
-            <li>小川　信<a href="https://twitter.com/">
-              <FontAwesomeIcon icon={faTwitter} />
-              <span className="sr-only"> Twitter </span>
-            </a></li>
-            <li>高見澤　亜衣<a href="https://twitter.com/">
-              <FontAwesomeIcon icon={faTwitter} />
-              <span className="sr-only"> Twitter </span>
-            </a></li>
-            <li>DH MARIE<a href="https://twitter.com/">
-              <FontAwesomeIcon icon={faTwitter} />
-              <span className="sr-only"> Twitter </span>
-            </a></li>
-            <li>高橋　佳奈<a href="https://twitter.com/">
-              <FontAwesomeIcon icon={faTwitter} />
-              <span className="sr-only"> Twitter </span>
-            </a></li>
+            <li>
+              歯科衛生士の母neo
+              <a href="https://twitter.com/">
+                <FontAwesomeIcon icon={faTwitter} />
+                <span className="sr-only"> Twitter </span>
+              </a>
+            </li>
+            <li>
+              三木　武寛
+              <a href="https://twitter.com/">
+                <FontAwesomeIcon icon={faTwitter} />
+                <span className="sr-only"> Twitter </span>
+              </a>
+            </li>
+            <li>
+              小川　信
+              <a href="https://twitter.com/">
+                <FontAwesomeIcon icon={faTwitter} />
+                <span className="sr-only"> Twitter </span>
+              </a>
+            </li>
+            <li>
+              高見澤　亜衣
+              <a href="https://twitter.com/">
+                <FontAwesomeIcon icon={faTwitter} />
+                <span className="sr-only"> Twitter </span>
+              </a>
+            </li>
+            <li>
+              DH MARIE
+              <a href="https://twitter.com/">
+                <FontAwesomeIcon icon={faTwitter} />
+                <span className="sr-only"> Twitter </span>
+              </a>
+            </li>
+            <li>
+              高橋　佳奈
+              <a href="https://twitter.com/">
+                <FontAwesomeIcon icon={faTwitter} />
+                <span className="sr-only"> Twitter </span>
+              </a>
+            </li>
           </ul>
         </div>
       </div>
