@@ -178,7 +178,7 @@ svg {
 }
 
 /* フード */
-.food {
+/* .food {
   padding: 30px 0;
   text-align: center;
 }
@@ -190,7 +190,7 @@ svg {
 }
 .food h2 span {
   font-weight: normal;
-}
+} */
 
 /* フード詳細 */
 .detail {
@@ -271,10 +271,11 @@ svg {
 
 /* 見出しの装飾 */
 .bar {
-  padding-bottom: 16px;
+  padding-bottom: 10px;
   position: relative;
+  background: linear-gradient(transparent 90%, rgb(224, 216, 101) 90%);
 }
-.bar::before,
+/* .bar::before,
 .bar::after {
   display: block;
   content: "";
@@ -290,11 +291,11 @@ svg {
 .bar::after {
   right: 0;
   bottom: 0;
-}
+} */
 
-.content .bar::before {
+/* .content .bar::before {
   width: 200px;
-}
+} */
 
 @media (min-width: 768px) {
   .bar {
@@ -341,8 +342,8 @@ svg {
 
 /* フッター */
 .footer {
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding-top: 5px;
+  padding-bottom: 15px;
   color: #477294;
   background-image: none;
   background-size: cover;
@@ -359,8 +360,8 @@ svg {
   text-align: center;
 }
 .footer .site p {
-  margin-top: 20px;
-  margin-bottom: 50px;
+  margin-top: 10px;
+  margin-bottom: 30px;
   font-size: 14px;
 }
 
@@ -405,7 +406,7 @@ svg {
 .sns {
   display: flex;
   list-style: none;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .sns li:not(:last-child) {
@@ -470,10 +471,13 @@ svg {
 .info {
   margin-bottom: 43px;
   color: #477294;
-  font-size: 14px;
+  font-size: 24px;
 }
 .info [class*="fa-"] {
   margin-right: 10px;
+}
+.subtitle {
+  font-size: 22px;
 }
 
 /*

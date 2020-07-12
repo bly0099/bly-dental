@@ -5,7 +5,7 @@ import Img from "gatsby-image"
 import Layout from "../components/layout"
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTooth, faCheckSquare } from "@fortawesome/free-solid-svg-icons"
+import { faTooth } from "@fortawesome/free-solid-svg-icons"
 
 // import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import SEO from "../components/seo"
@@ -39,10 +39,12 @@ export default ({ data, location }) => (
             我々Blyʻ（ブリー）は、歯科衛生士がそれぞれの医院で、エースとして働く為の知識・技術・あり
             方をセミナーにて習得して頂く事を目標にした歯科チームです。
           </p>
-          <h2>
-            <FontAwesomeIcon icon={faCheckSquare} />
-            メンバー
-          </h2>
+          <aside className="info">
+            <div className="subtitle">
+              <FontAwesomeIcon icon={faTooth} />
+              MEMBER Bly'
+            </div>
+          </aside>
           <div className="detail">
             <div className="text">
               <h3>歯科衛生士の母neo＞セルフマネジメント </h3>
@@ -85,6 +87,54 @@ export default ({ data, location }) => (
           </div>
           <figure>
             <img src="/images/takamisawa01.png" alt="" />
+          </figure>
+        </div>
+        <div className="detail">
+          <div className="text">
+            <h3>小川 信＞インプラント </h3>
+            <p>
+              埼玉県大宮市にて、大宮銀座通りクリニックを開業。
+              インプラントをより良い状態で入れ、より良い状態で使っていくにはメインテナンスが必要。
+              その「メインテナンスを行うのは歯科衛生士。」
+              例え自分が勤める歯科医院で手術をしていなくても、インプラントが入った患者を診る可能性が
+              ある以上はインプラントの知識は必要とチーム加入。
+            </p>
+          </div>
+          <figure>
+            <img src="/images/ogawa01.png" alt="" />
+          </figure>
+        </div>
+        <div className="detail">
+          <div className="text">
+            <h3>MARIE＞院内管理 </h3>
+            <p>
+              オープンスタッフを2度経験し、院内の人と物の管理、院長からの相談など学校では教わらない分
+              野に精通。
+              働く上で避けては通れない難関を突破してきたのには「院長を助けたい」という想いがあったか
+              ら。
+              この思想を持つ事が、自分にも医院にもメリットとなる歯科衛生士には必要だと説得し、チーム
+              加入。
+            </p>
+          </div>
+          <figure>
+            <img src="/images/marie01.png" alt="" />
+          </figure>
+        </div>
+        <div className="detail">
+          <div className="text">
+            <h3>高橋 佳奈＞歯周治療</h3>
+            <p>
+              岩手県盛岡市のゆいとぴあ歯科に勤務。
+              日本歯周病学会認定歯科衛生士であり、ベストハイジニスト賞受賞経験を持つ。
+              更に論文発表までしているが、全ては患者の為。
+              患者の「口腔から健康、人生までとことん見続けて、支える」為の知識と技術を常に求めている
+              歯科衛生士。
+              歯科衛生士がどこまで患者に介入するべきか医院によって難しいが、ここまで出来るという事を
+              知ってもらいたいとチーム加入。
+            </p>
+          </div>
+          <figure>
+            <img src="/images/takahashi01.png" alt="" />
           </figure>
         </div>
       </div>
