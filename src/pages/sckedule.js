@@ -16,12 +16,14 @@ export default ({ location }) => (
           活動予定 Bly'
         </div>
       </aside>
-      <ul>
-        <li>R2.8　本格始動。セミナー日時発表。</li>
-        <li>R2.11　キックオフミーティング開催。（名古屋）</li>
-        <li>R3.1〜計７回のセミナーを開催。（名古屋）</li>
-        <li>R4.11　キックオフミーティング開催。（東京）</li>
-        <li>R4.1〜計７回のセミナーを開催。（東京）</li>
+      <ul className="event">
+        <li>R2.5　Bly'設立</li>
+        <li>R2.8　HP開設</li>
+        <li>
+          R2.11 キックオフミーティング(zoom)　　
+          <a href="https://form.run/@shikaroom-1595489144">お申し込み</a>
+        </li>
+        <li>R3.1~10 計６回のセミナーを開催（名古屋）</li>
       </ul>
     </div>
   </Layout>

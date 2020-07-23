@@ -23,7 +23,7 @@ const Home = ({ data }) => (
         <h1>Bly'</h1>
         <h2>
           R２.11.. KICK OFF MEETING!!{" "}
-          <a href="https://form.run/@shikaroom-1594383067">→subscription</a>
+          <a href="https://form.run/@shikaroom-1595489144">→お申し込み</a>
         </h2>
       </div>
     </section>

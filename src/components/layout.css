@@ -85,6 +85,7 @@ svg {
   list-style: none;
   margin-top: 18px;
   color: #477294;
+  padding: 3px;
 }
 
 .nav li:not(:last-child) {
@@ -118,6 +119,9 @@ svg {
   height: 450px;
   object-fit: cover;
 }
+.catch a {
+  color: #477294;
+}
 
 .hero .catch {
   position: absolute;
@@ -140,6 +144,18 @@ svg {
 }
 .hero .catch h2 {
   font-size: 16px;
+}
+
+/*スケジュール*/
+.event li {
+  list-style: none;
+  font-size: 12px;
+}
+.event a {
+  color: #477294;
+  background-color: aliceblue;
+  padding: 3px;
+  border-radius: 5px;
 }
 
 /* .hero .wave {
