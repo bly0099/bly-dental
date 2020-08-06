@@ -3,7 +3,8 @@ import { Link } from "gatsby"
 // import Img from "gatsby-image"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
-  faTwitter,
+  faYoutube,
+  // faTwitter,
   faFacebookSquare,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
@@ -44,20 +45,26 @@ export default () => {
           </a>
         </div>
         <ul className="sns">
-          <li>
+          {/* <li>
             <a href="https://twitter.com/">
               <FontAwesomeIcon icon={faTwitter} />
               <span className="sr-only"> Twitter </span>
             </a>
+          </li> */}
+          <li>
+            <a href="https://www.youtube.com/?gl=JP">
+              <FontAwesomeIcon icon={faYoutube} />
+              <span className="sr-only"> Youtube </span>
+            </a>
           </li>
           <li>
-            <a href="https://facebook.com/">
+            <a href="https://www.facebook.com/shikaroom">
               <FontAwesomeIcon icon={faFacebookSquare} />
               <span className="sr-only"> Facebook </span>
             </a>
           </li>
           <li>
-            <a href="http://instagram.com/">
+            <a href="https://www.instagram.com/bly.jap/">
               <FontAwesomeIcon icon={faInstagram} />
               <span className="sr-only"> Instagram </span>
             </a>
