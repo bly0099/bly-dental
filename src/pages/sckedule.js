@@ -20,7 +20,7 @@ export default ({ location }) => (
         <li>R2.5　Bly'設立</li>
         <li>R2.8　HP開設</li>
         <li>
-          R2.11 キックオフミーティング(zoom)　　
+          R2.11.22 キックオフミーティング(zoom)　　
           <a href="https://form.run/@shikaroom-1595489144">お申し込み</a>
         </li>
         <li>R3.1~10 計６回のセミナーを開催（名古屋）</li>
