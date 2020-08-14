@@ -22,7 +22,7 @@ const Home = ({ data }) => (
       <div className="catch">
         <h1>Bly'</h1>
         <h2>
-          R２.11.22 KICK OFF MEETING!!{" "}
+          <span>R２.11.22 13:00-17:00</span> KICK OFF MEETING!!{" "}
           <a href="https://form.run/@shikaroom-1595489144">→お申し込み</a>
         </h2>
       </div>
