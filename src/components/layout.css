@@ -85,11 +85,10 @@ svg {
   list-style: none;
   margin-top: 18px;
   color: #477294;
-  padding: 3px;
 }
 
 .nav li:not(:last-child) {
-  margin-right: 55px;
+  margin-right: 40px;
 }
 
 @media (min-width: 768px) {
@@ -144,13 +143,16 @@ svg {
   margin-bottom: 10px;
 }
 .hero .catch h2 {
-  font-size: 16px;
+  font-size: 14px;
+}
+.hero .catch h2 span {
+  font-size: 18px;
 }
 
 /*スケジュール*/
 .event li {
   list-style: none;
-  font-size: 12px;
+  font-size: 11px;
 }
 .event a {
   color: #477294;
@@ -182,6 +184,10 @@ svg {
   .hero .catch h2 {
     font-size: 24px;
   }
+  .event li {
+    list-style: none;
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 900px) {
@@ -191,6 +197,10 @@ svg {
   }
   .hero .catch h2 {
     font-size: 32px;
+  }
+  .event li {
+    list-style: none;
+    font-size: 24px;
   }
 }
 
