@@ -143,10 +143,10 @@ svg {
   margin-bottom: 10px;
 }
 .hero .catch h2 {
-  font-size: 14px;
+  font-size: 16px;
 }
 .hero .catch h2 span {
-  font-size: 18px;
+  font-size: 12px;
 }
 
 /*スケジュール*/
@@ -184,6 +184,9 @@ svg {
   .hero .catch h2 {
     font-size: 24px;
   }
+  .hero .catch h2 span {
+    font-size: 16px;
+  }
   .event li {
     list-style: none;
     font-size: 20px;
@@ -197,6 +200,9 @@ svg {
   }
   .hero .catch h2 {
     font-size: 32px;
+  }
+  .hero .catch h2 span {
+    font-size: 24px;
   }
   .event li {
     list-style: none;
