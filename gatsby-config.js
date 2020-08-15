@@ -7,17 +7,17 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title:`Bly`,
-    description:`ブリー　歯科チーム`,
-    lang:`ja`,
-    siteUrl:`https://bly-dental-japan.com`,
+    title: `Bly`,
+    description: `ブリー`,
+    lang: `ja`,
+    siteUrl: `https://bly-dental-japan.com`,
   },
   plugins: [
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve:`gatsby-source-filesystem`,
-      options:{
+      resolve: `gatsby-source-filesystem`,
+      options: {
         name: `images`,
         path: `${__dirname}/src/images/`,
       },

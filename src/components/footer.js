@@ -46,7 +46,7 @@ export default () => {
         </div>
         <ul className="sns">
           <li>
-            <a href="https://twitter.com/">
+            <a href="https://twitter.com/DHkokkasikenn">
               <FontAwesomeIcon icon={faTwitter} />
               <span className="sr-only"> Twitter </span>
             </a>
