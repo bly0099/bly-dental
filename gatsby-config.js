@@ -38,6 +38,16 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: "gatsby-remark-audio",
+      options: {
+        preload: "auto",
+        loop: false,
+        controls: true,
+        muted: false,
+        autoplay: false,
+      },
+    },
     `gatsby-plugin-offline`,
     {
       resolve: `gatsby-source-contentful`,

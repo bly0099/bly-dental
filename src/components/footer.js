@@ -8,7 +8,11 @@ import {
   faFacebookSquare,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
-
+import AudioPlayer from "react-h5-audio-player"
+import "react-h5-audio-player/lib/styles.css"
+// import 'react-h5-audio-player/lib/styles.less' Use LESS
+// import 'react-h5-audio-player/src/styles.scss' Use SASS
+const Player = () => {}
 export default () => {
   // const data = useStaticQuery(graphql`
   //   query {
@@ -44,6 +48,12 @@ export default () => {
             <p> Bly-dental-japan お問い合わせ </p>
           </a>
         </div>
+        <AudioPlayer
+          autoPlay
+          src="../../static/朝の目覚まし.wav"
+          onPlay={e => console.log("onPlay")}
+          // other props here
+        />
         <ul className="sns">
           <li>
             <a href="https://twitter.com/DHkokkasikenn">
