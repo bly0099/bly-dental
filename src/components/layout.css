@@ -408,6 +408,11 @@ svg {
     margin-bottom: 0;
     font-size: 12px;
   }
+  .footer .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 }
 @media (min-width: 1050px) {
   .footer {
@@ -419,11 +424,6 @@ svg {
   }
   .footer .site p {
     font-size: 16px;
-  }
-  .footer .container {
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
   }
 }
 /* フッター　背景画像 */
