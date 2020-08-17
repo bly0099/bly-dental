@@ -8,6 +8,8 @@ import {
   faFacebookSquare,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons"
+// import 'react-h5-audio-player/lib/styles.less' Use LESS
+// import 'react-h5-audio-player/src/styles.scss' Use SASS
 
 export default () => {
   // const data = useStaticQuery(graphql`
@@ -70,7 +72,11 @@ export default () => {
             </a>
           </li>
         </ul>
+        <audio src="/朝の目覚まし.mp3" controls>
+          <p>音声を再生するには、audioタグをサポートしたブラウザが必要です。</p>
+        </audio>
       </div>
+
       {/* <div className="back">
         <Img
           fluid={data.pattern.childImageSharp.fluid}
