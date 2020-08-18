@@ -13,7 +13,7 @@ export default ({ location }) => (
       <aside className="info">
         <div className="subtitle">
           <FontAwesomeIcon icon={faTooth} />
-          活動予定 Bly'
+          活動予定
         </div>
       </aside>
       <ul className="event">
