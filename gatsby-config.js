@@ -7,7 +7,7 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Bly`,
+    title: `Bly'`,
     description: `ブリー`,
     lang: `ja`,
     siteUrl: `https://bly-dental-japan.com`,
