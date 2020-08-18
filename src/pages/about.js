@@ -14,7 +14,7 @@ export default ({ data, location }) => (
   <Layout>
     <SEO
       pagetitle="Blyについて"
-      pagedesc="dental"
+      pagedesc="ブリー"
       pagepath={location.pathname}
       pageimg={data.about.childImageSharp.original.src}
       pageimgw={data.about.childImageSharp.original.width}
@@ -42,12 +42,13 @@ export default ({ data, location }) => (
           <aside className="info">
             <div className="subtitle">
               <FontAwesomeIcon icon={faTooth} />
-              MEMBER Bly'
+              Bly'　MEMBER
             </div>
           </aside>
           <div className="detail">
             <div className="text">
-              <h3>歯科衛生士の母neo＞セルフマネジメント </h3>
+              <h3>歯科衛生士の母neo</h3>
+              <h4>セルフマネジメント</h4>
               <p>
                 矯正・一般歯科にて勤務し、これまでに正社員・パート・単発の勤務形態や産休・育休も経験。
                 ブランクへの対応や働く環境に疑問を持つ。
@@ -62,7 +63,8 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>三木　武寛＞障害者歯科・訪問歯科 </h3>
+            <h3>三木　武寛</h3>
+            <h4>障害者歯科・訪問歯科</h4>
             <p>
               香川県高松市にて、みき歯科三越通りクリニックを開業。
               障がいのある方が不自由無く歯科治療を受けられる世の中（ユニバーサルデザイン）にする為に
@@ -76,7 +78,8 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>高見澤　亜衣＞口腔周囲筋ケア </h3>
+            <h3>高見澤　亜衣</h3>
+            <h4>口腔周囲筋ケア</h4>
             <p>
               一般歯科だけでは無く、専門学校の講師、全国でのセミナーの他にエステティシャンとしても働
               く歯科衛生士。
@@ -91,7 +94,8 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>小川 信＞インプラント </h3>
+            <h3>小川 信</h3>
+            <h4>インプラント</h4>
             <p>
               埼玉県大宮市にて、大宮銀座通りクリニックを開業。
               インプラントをより良い状態で入れ、より良い状態で使っていくにはメインテナンスが必要。
@@ -106,7 +110,8 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>MARIE＞院内管理 </h3>
+            <h3>MARIE</h3>
+            <h4>院内管理</h4>
             <p>
               オープンスタッフを2度経験し、院内の人と物の管理、院長からの相談など学校では教わらない分
               野に精通。
@@ -122,7 +127,8 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>高橋 佳奈＞歯周治療</h3>
+            <h3>高橋 佳奈</h3>
+            <h4>歯周治療</h4>
             <p>
               岩手県盛岡市のゆいとぴあ歯科に勤務。
               日本歯周病学会認定歯科衛生士であり、ベストハイジニスト賞受賞経験を持つ。
