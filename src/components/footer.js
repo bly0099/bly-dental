@@ -72,14 +72,14 @@ export default () => {
             </a>
           </li>
         </ul>
-        <audio
+        {/* <audio
           src="/朝の目覚まし.mp3"
           controls
           style={{ height: "24px", width: "220px" }}
         >
           <p>音声を再生するには、audioタグをサポートしたブラウザが必要です。</p>
         </audio>
-        <h5>©︎sound by shingo</h5>
+        <h5>©︎sound by shingo</h5> */}
       </div>
 
       {/* <div className="back">
