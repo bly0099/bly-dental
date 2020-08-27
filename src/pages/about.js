@@ -4,8 +4,8 @@ import Img from "gatsby-image"
 
 import Layout from "../components/layout"
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faTooth } from "@fortawesome/free-solid-svg-icons"
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+// import { faTooth } from "@fortawesome/free-solid-svg-icons"
 
 // import { faTwitter } from "@fortawesome/free-brands-svg-icons"
 import SEO from "../components/seo"
@@ -20,31 +20,34 @@ export default ({ data, location }) => (
       pageimgw={data.about.childImageSharp.original.width}
       pageimgh={data.about.childImageSharp.original.height}
     />
-    <div className="eyecatch">
-      <figure>
-        <Img fluid={data.about.childImageSharp.fluid} alt="dental" />
-      </figure>
-    </div>
+
     <article className="content">
       <div className="container">
         <h1 className="bar">Bly'について</h1>
-        <aside className="info">
+        <div className="eyecatch">
+          <figure>
+            <Img fluid={data.about.childImageSharp.fluid} alt="dental" />
+          </figure>
+        </div>
+        {/* <aside className="info">
           <div className="subtitle">
             <FontAwesomeIcon icon={faTooth} />
             ABOUT Bly'
           </div>
-        </aside>
+        </aside> */}
         <div className="postbody">
           <p>
             我々Blyʻ（ブリー）は、歯科衛生士がそれぞれの医院で、エースとして働く為の知識・技術・あり
             方をセミナーにて習得して頂く事を目標にした歯科チームです。
           </p>
-          <aside className="info">
+          {/* <aside className="info">
             <div className="subtitle">
               <FontAwesomeIcon icon={faTooth} />
               Bly'　MEMBER
             </div>
-          </aside>
+            
+          </aside> */}
+          <h1 className="bar">Bly' メンバー</h1>
           <div className="detail">
             <div className="text">
               <h3>歯科衛生士の母neo</h3>
