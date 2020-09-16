@@ -7,8 +7,8 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `Bly'`,
-    description: `ブリー`,
+    title: `Bly`,
+    description: `bly ブリー dental 歯科`,
     lang: `ja`,
     siteUrl: `https://bly-dental-japan.com`,
   },
