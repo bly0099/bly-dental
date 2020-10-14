@@ -1,10 +1,10 @@
-import React from "react"
-import Layout from "../components/layout"
+import React from "react";
+import Layout from "../components/layout";
 
 // import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 // import { faTooth } from "@fortawesome/free-solid-svg-icons"
 
-import SEO from "../components/seo"
+import SEO from "../components/seo";
 
 export default ({ location }) => (
   <Layout>
@@ -25,9 +25,9 @@ export default ({ location }) => (
             R2.11.22 キックオフミーティング(zoom)　　
             <a href="https://form.run/@shikaroom-1595489144">お申し込み</a>
           </li>
-          <li>R3.1~10 計６回のセミナーを開催（名古屋）</li>
+          <li>R3.1~10 計６回のセミナーを開催（オンライン）</li>
         </ul>
       </div>
     </article>
   </Layout>
-)
+);
