@@ -21,10 +21,12 @@ const Home = ({ data }) => (
       </figure>
       <div className="catch">
         <h1>Bly'</h1>
-        <h2>
-          <span>R2.11.22 13:00-17:00</span>
-          <br></br>KICK OFF MEETING!!{" "}
+        <h2 className="kickoff">
+          <span>　R2.11.22 13:00-17:00</span>
+          <br></br>『KICK OFF MEETING!!』{" "}
           <a href="https://form.run/@shikaroom-1595489144">→お申し込み</a>
+          <br></br>
+          <span>　後日参加者にアーカイブ配信決定！</span>
         </h2>
       </div>
     </section>
