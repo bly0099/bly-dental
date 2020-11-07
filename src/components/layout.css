@@ -246,6 +246,9 @@ svg {
   font-size: 10px;
   line-height: 1.2;
 }
+.text a{
+  color: rgba(107, 173, 218, 0.993);
+}
 
 @media (min-width: 768px) {
   .details {
@@ -277,6 +280,9 @@ svg {
   } */
   .detail p:last-of-type {
     font-size: 13px;
+  }
+  .text a{
+    color: rgba(107, 173, 218, 0.993);
   }
 }
 
@@ -432,14 +438,7 @@ svg {
   position: relative;
   z-index: 10;
 }
-/* .footer .back{
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	margin: auto;
-} */
+
 /* SNSメニュー */
 .sns {
   display: flex;
@@ -487,6 +486,9 @@ svg {
 }
 .postbody li:not(:last-child) {
   margin-bottom: 1em;
+}
+.postbody a{
+  color: rgba(107, 173, 218, 0.993);
 }
 
 @media (min-width: 768px) {
