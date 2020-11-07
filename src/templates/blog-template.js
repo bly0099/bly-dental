@@ -15,7 +15,7 @@ const BlogTemp = ({ data, location, pageContext }) => (
   <Layout>
     <SEO
       pagetitle="ブログ"
-      pagedesc="ESSENTIALSのブログです"
+      pagedesc="Bly'のブログです"
       pagepath={location.pathname}
     />
     <section className="content bloglist">

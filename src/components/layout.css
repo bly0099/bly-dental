@@ -296,6 +296,9 @@ svg {
     margin-top: 16%;
     width: 80%;
   }
+  .text a{
+    color: rgba(107, 173, 218, 0.993);
+  }
 }
 
 /* 見出しの装飾 */
@@ -499,6 +502,9 @@ svg {
 
   .postbody h2 {
     font-size: 28px;
+  }
+  .postbody a{
+    color: rgba(107, 173, 218, 0.993);
   }
 }
 
