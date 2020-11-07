@@ -50,7 +50,7 @@ export default ({ data, location }) => (
           <h1 className="bar">Bly' メンバー</h1>
           <div className="detail">
             <div className="text">
-              <h3>歯科衛生士の母neo</h3>
+              <h3><a href="https://www.instagram.com/dhnoneo">歯科衛生士の母neo</a></h3>
               <h4>セルフマネジメント</h4>
               <p>
                 矯正・一般歯科にて勤務し、これまでに正社員・パート・単発の勤務形態や産休・育休も経験。
@@ -66,7 +66,7 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>三木　武寛</h3>
+            <h3><a href="https://www.miki-dmc.com/ ">三木　武寛</a></h3>
             <h4>障害者歯科・訪問歯科</h4>
             <p>
               香川県高松市にて、みき歯科三越通りクリニックを開業。
@@ -81,7 +81,7 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>高見澤　亜衣</h3>
+            <h3><a href="https://www.instagram.com/ai.takamy">高見澤　亜衣</a></h3>
             <h4>口腔周囲筋ケア</h4>
             <p>
               一般歯科だけでは無く、専門学校の講師、全国でのセミナーの他にエステティシャンとしても働
@@ -97,7 +97,7 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>小川 信</h3>
+            <h3><a href="https://ginzadori-shika.jp/">小川 信</a></h3>
             <h4>インプラント</h4>
             <p>
               埼玉県大宮市にて、大宮銀座通りクリニックを開業。
@@ -113,7 +113,7 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>MARIE</h3>
+            <h3><a href="https://www.instagram.com/dh.mari.e">MARIE</a></h3>
             <h4>院内管理</h4>
             <p>
               オープンスタッフを2度経験し、院内の人と物の管理、院長からの相談など学校では教わらない分
@@ -130,7 +130,7 @@ export default ({ data, location }) => (
         </div>
         <div className="detail">
           <div className="text">
-            <h3>高橋 佳奈</h3>
+            <h3><a href="https://www.yuitopia-dc.com">高橋 佳奈</a></h3>
             <h4>歯周治療</h4>
             <p>
               岩手県盛岡市のゆいとぴあ歯科に勤務。

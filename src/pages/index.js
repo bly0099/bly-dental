@@ -8,7 +8,10 @@ import SEO from "../components/seo"
 
 const Home = ({ data }) => (
   <Layout>
-    <SEO />
+    <SEO
+    pagetitle="Bly" 
+    pagedesc="ブリー"
+    />
     <section className="hero">
       <figure>
         <Img
