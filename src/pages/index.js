@@ -27,7 +27,7 @@ const Home = ({ data }) => (
         <h2 className="kickoff">
           <span>　R2.11.22 13:00-17:00</span>
           <br></br>『KICK OFF MEETING!!』{" "}
-          <a href="https://form.run/@shikaroom-1595489144">→お申し込み</a>
+          <a href="https://form.run/@shikaroom-1595489144">→アーカイブお申し込み</a>
           <br></br>
           <span>　後日参加者にアーカイブ配信決定！</span>
         </h2>
