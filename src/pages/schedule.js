@@ -23,9 +23,9 @@ export default ({ location }) => (
           <li>R2.8　HP開設</li>
           <li>
             R2.11.22 キックオフミーティング(zoom)　　
-            <a href="https://form.run/@shikaroom-1595489144">お申し込み</a>
+            <a href="https://form.run/@shikaroom-1595489144">アーカイブ</a>
           </li>
-          <li>R3.1~10 計６回のセミナーを開催（オンライン）</li>
+          <li>R3.2~10 計６回のセミナーを開催（オンライン）</li>
         </ul>
       </div>
     </article>

@@ -111,12 +111,12 @@ svg {
 
 .hero figure {
   max-height: 100%;
-  height: 450px;
+  height: 100vh;
 }
 
 .hero figure img {
   width: 100%;
-  height: 450px;
+  height: 100vh;
   object-fit: cover;
 }
 .catch a {
@@ -126,10 +126,9 @@ svg {
 .hero .catch {
   position: absolute;
   top: 0;
-  right: 0;
+  /* right: 0; */
   bottom: 0;
-  left: 20px;
-  margin: auto auto 10%;
+  margin: 10% auto 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -140,13 +139,69 @@ svg {
 
 .hero .catch h1 {
   font-size: 60px;
+  margin-left: 20px;
   margin-bottom: 10px;
 }
-.hero .catch h2 {
-  font-size: 16px;
+.hero .catch .basic{
+  display: flexbox;
+  flex-direction: row;
 }
-.hero .catch h2 span {
-  font-size: 15px;
+.hero .catch h2 span{
+  font-size: 20px;
+}
+.hero .catch .flex_box {
+  margin-top: 20px;
+  margin-left: 5px;
+  padding:  10px;             /* 余白指定 */
+  display: flex;             
+  flex-wrap: wrap;
+  align-items:stretch;  
+  width: 95%;      /* 縦の位置指定 */
+}
+.hero .catch .flex_item {
+  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #121212;     /* 背景色指定 */
+  padding: 10px;
+  color:  rgb(207, 204, 204);               /* 文字色 */
+  margin:  5px;              /* 外側の余白 */
+  border-radius:  2px;        /* 角丸指定 */
+  width: 100%;                 /* 幅指定 */
+  min-height: 175px;
+}
+
+.hero .catch .flex_item .cardimg{
+  display: flex;
+  justify-content: space-between;
+}
+.hero .catch .flex_item .cardimg img{
+  width: 45%;
+  height: 175px;
+  object-fit: cover;
+}
+.hero .catch .flex_item .carditem{
+  width: 58%;
+}
+.hero .catch .flex_item .button{
+  margin-top: 24px;
+  text-align: end;
+}
+
+.hero .catch .flex_item .button a {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  background: #121212;
+  color: white;
+  border: 1px solid white;
+  padding: 24px 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 10px;
+  transition: 0.3s;
+}
+.hero .catch .flex_item .button:hover a {
+  background: white;
+  color: #121212;
+  transition: 0.3s;
 }
 
 /*スケジュール*/
@@ -161,35 +216,40 @@ svg {
   border-radius: 5px;
 }
 
-/* .hero .wave {
-	position: absolute;
-	right: 0;
-	bottom: -10px;
-	left: 0;
-	margin: auto;
-	width: 100%;
-} */
 
 @media (min-width: 768px) {
   .hero figure {
-    height: 750%;
+    max-height: 100%;
+  height: 100vh;
   }
   .hero figure img {
-    height: 750px;
+    height: 950px;
+  }
+  .hero .catch{
+    width: 100%;
   }
   .hero .catch h1 {
     font-size: 100px;
     margin-bottom: 30px;
   }
-  .hero .catch h2 {
-    font-size: 24px;
+  .hero .catch h2{
+    font-size: 20px;
   }
-  .hero .catch h2 span {
-    font-size: 16px;
+  .hero .catch .basic h2{
+    font-size: 30px;
+  }
+  .hero .catch .basic a{
+    font-size: 20px;
+  }
+  .hero .catch .flex_box{
+    justify-content: space-between;
+  }
+  .hero .catch .flex_item{
+    width: 45%;
   }
   .event li {
     list-style: none;
-    font-size: 20px;
+    font-size: 24px;
   }
 }
 
@@ -198,12 +258,13 @@ svg {
     font-size: 100px;
     margin-bottom: 30px;
   }
-  .hero .catch h2 {
-    font-size: 32px;
+  .hero .catch .flex_box{
+    justify-content: space-between;
   }
-  .hero .catch h2 span {
-    font-size: 24px;
+  .hero .catch .flex_tem{
+    width: 45%;
   }
+
   .event li {
     list-style: none;
     font-size: 24px;
