@@ -56,7 +56,7 @@ const Home = ({ data }) => (
                 </h2>
                 　キックオフ
                 <br></br>
-                　ダイジェストムービー
+                　ダイジェスト
                 <br></br>
                 <div class="animate-this button">
                     <a href="https://youtu.be/PdPwlT82u_8">movie  ＞＞</a>
