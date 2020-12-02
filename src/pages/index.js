@@ -34,7 +34,7 @@ const Home = ({ data }) => (
         </div> 
         <div className="flex_box">
                 <div class="flex_item">
-                <span>　R2.11.22 13:00-17:00</span>
+                <span>　R2.11.22</span>
                   <h2>
                 『KICK OFF MEETING!!』
                 </h2>
