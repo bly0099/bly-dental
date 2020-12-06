@@ -8,10 +8,7 @@ import SEO from "../components/seo"
 
 const Home = ({ data }) => (
   <Layout>
-    <SEO
-    pagetitle="Bly" 
-    pagedesc="ブリー"
-    />
+    <SEO pagetitle="Bly" pagedesc="ブリー" />
     <section className="hero">
       <figure>
         <Img
@@ -27,43 +24,37 @@ const Home = ({ data }) => (
         <div className="basic">
           <span>　　R3.2.7 13:00-17:00</span>
           <br></br>
-          <h2>　『BASIC SEMINER!!』{" "}</h2>
-            <a href="https://form.run/@shikaroom-1595489144">　　→12月受付スタート</a>
+          <h2>　『BASIC SEMINER!!』 </h2>
+          <a href="https://form.run/@shikaroom-1594383067">　　→受付スタート</a>
           <br></br>
           <br></br>
-        </div> 
+        </div>
         <div className="flex_box">
-                <div class="flex_item">
-                <span>　R2.11.22</span>
-                  <h2>
-                『KICK OFF MEETING!!』
-                </h2>
-                　アーカイブ配信受付中
-                <br></br>
-                　
-                
-                <div class="animate-this button">
-                    <a href="https://form.run/@shikaroom-1595489144">more  ＞＞</a>
-                </div>
-                </div>
-                <div class="flex_item">
-                <div className="cardimg">
-                  <img src="/images/card.png" alt="" />
-                <div className="carditem">
+          <div class="flex_item">
+            <span>　R2.11.22</span>
+            <h2>『KICK OFF MEETING!!』</h2>
+            　アーカイブ配信受付中
+            <br></br>　
+            <div class="animate-this button">
+              <a href="https://form.run/@shikaroom-1595489144">more ＞＞</a>
+            </div>
+          </div>
+          <div class="flex_item">
+            <div className="cardimg">
+              <img src="/images/card.png" alt="" />
+              <div className="carditem">
                 <span>　R2.12.1 </span>
-                <h2>
-                『New!!』
-                </h2>
+                <h2>『New!!』</h2>
                 　キックオフ
                 <br></br>
                 　ダイジェスト
                 <br></br>
                 <div class="animate-this button">
-                    <a href="https://youtu.be/PdPwlT82u_8">movie  ＞＞</a>
+                  <a href="https://youtu.be/PdPwlT82u_8">movie ＞＞</a>
                 </div>
-                </div>
-                </div>
-                </div>
+              </div>
+            </div>
+          </div>
         </div>
         {/* <h2 className="kickoff">
           <span>　R2.11.22 13:00-17:00</span>
