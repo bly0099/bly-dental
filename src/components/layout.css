@@ -78,9 +78,9 @@ svg {
   height: 104px;
   text-align: center;
 }
-@media(max-width:400px){
+@media (max-width: 400px) {
   .header .container {
-font-size: 14px;
+    font-size: 14px;
   }
 }
 
@@ -139,57 +139,64 @@ font-size: 14px;
   justify-content: center;
   /* text-align: center; */
   color: rgb(29, 24, 24);
-  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
 .hero .catch h1 {
   font-size: 60px;
   margin-left: 20px;
   margin-bottom: 10px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.hero .catch .basic{
+.hero .catch .basic {
   display: flexbox;
   flex-direction: row;
 }
-.hero .catch h2 span{
+.hero .catch h2 span {
   font-size: 20px;
 }
-.hero .catch h2{
+.hero .catch h2 {
   font-size: 20px;
 }
 .hero .catch .flex_box {
   margin-top: 20px;
   margin-left: 5px;
-  padding:  10px;             /* 余白指定 */
-  display: flex;             
+  padding: 10px; /* 余白指定 */
+  display: flex;
   flex-wrap: wrap;
-  align-items:stretch;  
-  width: 95%;      /* 縦の位置指定 */
+  align-items: stretch;
+  width: 95%; /* 縦の位置指定 */
 }
 .hero .catch .flex_item {
-  box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
-  background-color: #121212;     /* 背景色指定 */
+  /* box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19); */
+  background: rgba(139, 139, 139, 0.062); /* 背景色指定 */
   padding: 10px;
-  color:  rgb(207, 204, 204);               /* 文字色 */
-  margin:  5px;              /* 外側の余白 */
-  border-radius:  2px;        /* 角丸指定 */
-  width: 100%;                 /* 幅指定 */
+  color: rgb(243, 243, 243); /* 文字色 */
+  margin: 5px; /* 外側の余白 */
+  border-radius: 2px;
+  border: solid 2px transparent;
+  background-clip: padding-box;
+  width: 100%; /* 幅指定 */
   min-height: 175px;
+  backdrop-filter: blur(40px);
+  -webkit-filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.8));
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.603));
 }
 
-.hero .catch .flex_item .cardimg{
+.hero .catch .flex_item .cardimg {
   display: flex;
   justify-content: space-between;
 }
-.hero .catch .flex_item .cardimg img{
+.hero .catch .flex_item .cardimg img {
   width: 45%;
   height: 175px;
+  opacity: 0.7;
   object-fit: cover;
 }
-.hero .catch .flex_item .carditem{
+.hero .catch .flex_item .carditem {
   width: 58%;
 }
-.hero .catch .flex_item .button{
+.hero .catch .flex_item .button {
   margin-top: 24px;
   text-align: end;
 }
@@ -197,7 +204,7 @@ font-size: 14px;
 .hero .catch .flex_item .button a {
   font-family: "Montserrat", sans-serif;
   text-decoration: none;
-  background: #121212;
+  background: #adadad23;
   color: white;
   border: 1px solid white;
   padding: 24px 40px;
@@ -223,12 +230,12 @@ font-size: 14px;
   padding: 2.5px;
   border-radius: 5px;
 }
-@media (max-width:400px){
+@media (max-width: 400px) {
   .hero figure {
     max-height: 100%;
     height: 105vh;
   }
-  .hero .catch .flex_item .button{
+  .hero .catch .flex_item .button {
     margin-top: 20px;
     text-align: end;
   }
@@ -238,14 +245,15 @@ font-size: 14px;
     font-size: 8px;
     transition: 0.3s;
   }
-  .hero .catch .flex_item {               /* 幅指定 */
+  .hero .catch .flex_item {
+    /* 幅指定 */
     min-height: 145px;
     font-size: 14px;
   }
-  h2{
+  h2 {
     font-size: 16px;
   }
-  .hero .catch .flex_item .cardimg img{
+  .hero .catch .flex_item .cardimg img {
     width: 45%;
     height: 95px;
     object-fit: cover;
@@ -255,31 +263,31 @@ font-size: 14px;
 @media (min-width: 768px) {
   .hero figure {
     max-height: 100%;
-  height: 100vh;
+    height: 100vh;
   }
   .hero figure img {
     height: 950px;
   }
-  .hero .catch{
+  .hero .catch {
     width: 100%;
   }
   .hero .catch h1 {
     font-size: 100px;
     margin-bottom: 30px;
   }
-  .hero .catch h2{
+  .hero .catch h2 {
     font-size: 20px;
   }
-  .hero .catch .basic h2{
+  .hero .catch .basic h2 {
     font-size: 30px;
   }
-  .hero .catch .basic a{
+  .hero .catch .basic a {
     font-size: 20px;
   }
-  .hero .catch .flex_box{
+  .hero .catch .flex_box {
     justify-content: space-between;
   }
-  .hero .catch .flex_item{
+  .hero .catch .flex_item {
     width: 45%;
   }
   .event li {
@@ -293,13 +301,13 @@ font-size: 14px;
     font-size: 100px;
     margin-bottom: 30px;
   }
-  .hero .catch h2{
+  .hero .catch h2 {
     font-size: 25px;
   }
-  .hero .catch .flex_box{
+  .hero .catch .flex_box {
     justify-content: space-between;
   }
-  .hero .catch .flex_tem{
+  .hero .catch .flex_tem {
     width: 45%;
   }
 
@@ -345,7 +353,7 @@ font-size: 14px;
   font-size: 10px;
   line-height: 1.2;
 }
-.text a{
+.text a {
   color: rgba(107, 173, 218, 0.993);
 }
 
@@ -380,7 +388,7 @@ font-size: 14px;
   .detail p:last-of-type {
     font-size: 13px;
   }
-  .text a{
+  .text a {
     color: rgba(107, 173, 218, 0.993);
   }
 }
@@ -401,7 +409,7 @@ font-size: 14px;
     margin-top: 16%;
     width: 80%;
   }
-  .text a{
+  .text a {
     color: rgba(107, 173, 218, 0.993);
   }
 }
@@ -586,7 +594,7 @@ font-size: 14px;
 .postbody li:not(:last-child) {
   margin-bottom: 1em;
 }
-.postbody a{
+.postbody a {
   color: rgba(107, 173, 218, 0.993);
 }
 
@@ -604,7 +612,7 @@ font-size: 14px;
   .postbody h2 {
     font-size: 28px;
   }
-  .postbody a{
+  .postbody a {
     color: rgba(107, 173, 218, 0.993);
   }
 }
