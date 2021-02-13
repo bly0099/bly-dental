@@ -34,7 +34,7 @@ const Home = ({ data }) => {
         </figure>
         <div className="catch">
           <h1 ref={headerRef}>Bly'</h1>
-          <div className="basic">
+          {/* <div className="basic">
             <span>　　R3.2.7 13:00-17:00</span>
             <br></br>
             <h2>　『BASIC SEMINER!!』 </h2>
@@ -43,18 +43,28 @@ const Home = ({ data }) => {
             </a>
             <br></br>
             <br></br>
-          </div>
+          </div> */}
           <div className="flex_box">
             <div class="flex_item">
-              <span>　R2.11.22</span>
-              <h2>『KICK OFF MEETING!!』</h2>
+              <span>　R3.3.7 13:00-16:00<</span>
+              <h2>『スペシャルニーズ&セルフマネジメント』</h2>
+              　受付スタート
+              <br></br>　
+              <div class="animate-this button">
+                <a href="https://form.run/@shikaroom-1594383067>more ＞＞</a>
+              </div>
+            </div>
+            <div class="flex_item">
+              <span>　R3.2.7</span>
+              <h2>『歯周治療&インプラント』</h2>
               　アーカイブ配信受付中
               <br></br>　
               <div class="animate-this button">
                 <a href="https://form.run/@shikaroom-1595489144">more ＞＞</a>
               </div>
             </div>
-            <div class="flex_item">
+
+            {/* <div class="flex_item">
               <div className="cardimg">
                 <img src="/images/card.png" alt="" />
                 <div className="carditem">
@@ -69,7 +79,7 @@ const Home = ({ data }) => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
           {/* <h2 className="kickoff">
           <span>　R2.11.22 13:00-17:00</span>
