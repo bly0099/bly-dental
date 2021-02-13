@@ -46,7 +46,7 @@ const Home = ({ data }) => {
           </div> */}
           <div className="flex_box">
             <div class="flex_item">
-              <span>　R3.3.7</span>
+              <span>　R3.3.7 13:00-16:00<</span>
               <h2>『スペシャルニーズ&セルフマネジメント』</h2>
               　受付スタート
               <br></br>　
