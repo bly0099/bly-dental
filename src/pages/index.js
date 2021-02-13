@@ -51,7 +51,7 @@ const Home = ({ data }) => {
               　受付スタート
               <br></br>　
               <div class="animate-this button">
-                <a href="https://form.run/@shikaroom-1595489144">more ＞＞</a>
+                <a href="https://form.run/@shikaroom-1594383067>more ＞＞</a>
               </div>
             </div>
             <div class="flex_item">
