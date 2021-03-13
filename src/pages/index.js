@@ -38,19 +38,19 @@ const Home = ({ data }) => {
             <div class="flex_item">
               <span>　R3.3.7 13:00-16:00</span>
               <h2>『スペシャルニーズ&セルフマネジメント』</h2>
-              　受付スタート
+              　アーカイブ配信受付中
               <br></br>　
               <div class="animate-this button">
                 <a href="https://form.run/@shikaroom-1594383067">more ＞＞</a>
               </div>
             </div>
             <div class="flex_item">
-              <span>　R3.2.7</span>
-              <h2>『歯周治療&インプラント』</h2>
-              　アーカイブ配信受付中
+              <span>　R3.6.6</span>
+              <h2>『口腔周囲筋ケア&セルフマネジメント』</h2>
+              　準備中
               <br></br>　
               <div class="animate-this button">
-                <a href="https://form.run/@shikaroom-1595489144">more ＞＞</a>
+                <a href="#">more ＞＞</a>
               </div>
             </div>
           </div>
