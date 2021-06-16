@@ -50,7 +50,7 @@ const Home = ({ data }) => {
               準備中
               <br></br>
               <div class="animate-this button">
-                <a href="https://form.run/@shikaroom-1594383067">more ＞＞</a>
+                <a href="https://bly-dental-japan.com/">more ＞＞</a>
               </div>
             </div>
           </div>
