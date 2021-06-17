@@ -36,23 +36,30 @@ const Home = ({ data }) => {
           <h1 ref={headerRef}>Bly'</h1>
           <div className="flex_box">
             <div class="flex_item">
-              <span>R3.7.18</span>
-              <h2>『歯周治療＆インプラント』</h2>
-              受付中
+              <span>R3</span>
+              <h2>『 Bly' ベーシックセミナー 』</h2>
+              各種受付中
+              <br></br>
               <br></br>
               <div class="animate-this button">
-                <a href="https://form.run/@shikaroom-1594383067">more ＞＞</a>
+                <a
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSfMUFcWJiTDqDdEskP0QfeqKWvV57qNvLNY1uFoTVLlQth9aw/viewform?usp=sf_link"
+                >
+                  more ＞＞
+                </a>
               </div>
             </div>
-            <div class="flex_item">
+            {
+              /* <div class="flex_item">
               <span>R3.8.22</span>
               <h2>『スペシャルニーズ＆セルフマネジメント』</h2>
               準備中
               <br></br>
               <div class="animate-this button">
                 <a href="https://bly-dental-japan.com/">more ＞＞</a>
-              </div>
-            </div>
+              </div> */
+            }
+            {/* </div> */}
           </div>
         </div>
       </section>
