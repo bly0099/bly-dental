@@ -49,17 +49,16 @@ const Home = ({ data }) => {
                 </a>
               </div>
             </div>
-            {
-              /* <div class="flex_item">
-              <span>R3.8.22</span>
-              <h2>『スペシャルニーズ＆セルフマネジメント』</h2>
-              準備中
+            <div class="flex_item">
+              <span>R3</span>
+              <h2>『Bly' Basic Seminar』</h2>
+              受講生の感想
+              <br></br>
               <br></br>
               <div class="animate-this button">
-                <a href="https://bly-dental-japan.com/">more ＞＞</a>
-              </div> */
-            }
-            {/* </div> */}
+                <a href="https://bly-basic-seminar.studio.site">more ＞＞</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
