@@ -34,6 +34,7 @@ const Home = ({ data }) => {
         </figure>
         <div className="catch">
           <h1 ref={headerRef}>Bly'</h1>
+          <h2>重宝されるベテラン歯科衛生士になるために</h2>
           <div className="flex_box">
             <div class="flex_item">
               <span>R3</span>
