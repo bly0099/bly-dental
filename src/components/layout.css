@@ -234,7 +234,13 @@ svg {
 @media (max-width: 450px) {
   .hero figure {
     max-height: 100%;
-    height: 105vh;
+    height: 80vh;
+  }
+  .hero .catch img {
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10%;
   }
   .hero .catch h1 {
     font-size: 17px;
