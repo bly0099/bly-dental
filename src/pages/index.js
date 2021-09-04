@@ -33,33 +33,17 @@ const Home = ({ data }) => {
           />
         </figure>
         <div className="catch">
-          <h1 ref={headerRef}>Bly'</h1>
-          <div className="flex_box">
-            <div class="flex_item">
-              <span>R3</span>
-              <h2>『 Bly' ベーシックセミナー 』</h2>
-              各種受付中
-              <br></br>
-              <br></br>
-              <div class="animate-this button">
-                <a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfMUFcWJiTDqDdEskP0QfeqKWvV57qNvLNY1uFoTVLlQth9aw/viewform?usp=sf_link"
-                >
-                  more ＞＞
-                </a>
-              </div>
-            </div>
-            <div class="flex_item">
-              <span>R3</span>
-              <h2>『Bly' Basic Seminar』</h2>
-              受講生の感想
-              <br></br>
-              <br></br>
-              <div class="animate-this button">
-                <a href="https://bly-basic-seminar.studio.site">more ＞＞</a>
-              </div>
-            </div>
+          <div className="arrow_box">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfMUFcWJiTDqDdEskP0QfeqKWvV57qNvLNY1uFoTVLlQth9aw/viewform">
+            <p>
+              ベーシックセミナー
+            </p>
+            <p>お申し込みはこちら＞＞</p>
+            </a>
           </div>
+          <img ref={headerRef} src="/images/toplogo.png" alt="" />
+          <h1>重宝されるベテラン歯科衛生士になるために</h1>
+          <h5>Bly'は歯科衛生士と人生の充実をコンセプトにしています。</h5>
         </div>
       </section>
     </Layout>
