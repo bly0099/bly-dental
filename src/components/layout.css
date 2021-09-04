@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hina+Mincho&family=Kaisei+HarunoUmi&display=swap');
 
 /* 基本 */
 body {
@@ -114,6 +115,7 @@ svg {
 /* ヒーロー */
 .hero {
   position: relative;
+  font-family: 'Hina Mincho', serif;
 }
 
 .hero figure {
@@ -133,110 +135,88 @@ svg {
 
 .hero .catch {
   position: absolute;
+  font-family: 'Hina Mincho', serif;
   top: 0;
-  /* right: 0; */
+  right: 0;
   bottom: 0;
-  margin: 10% auto 10%;
+  left: 0;
+  margin: auto auto 10%;
   display: flex;
+
   flex-direction: column;
   justify-content: center;
-  /* text-align: center; */
-  color: rgb(29, 24, 24);
-}
-
-.hero .catch h1 {
-  font-size: 60px;
-  margin-left: 20px;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  text-align: center;
+  color: #fff;
   text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
 
-.hero .catch .basic {
-  display: flexbox;
-  flex-direction: row;
-}
-
-.hero .catch h2 span {
+.hero .catch p {
   font-size: 20px;
 }
 
-.hero .catch h2 {
-  font-size: 20px;
+.hero .catch .arrow_box {
+  animation: fluffy1 2s linear infinite;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  width: 300px;
+  height: 60px;
+  background: #fff8f29c;
+  padding: 10px;
+  text-align: center;
+  color: #8b898b;
+  font-size: 30px;
+  font-weight: bold;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  text-shadow: 0px 0px 0px #030303;
+}
+@keyframes fluffy1 {
+  0% , 100%{
+    transform: rotate(5deg);
+}
+50%{
+    transform: rotate(-5deg);
+}
 }
 
-.hero .catch .flex_box {
-  margin-top: 20px;
+.hero .catch .arrow_box:after {
+  border: solid transparent;
+  content: '';
+  height: 0;
+  width: 0;
+  pointer-events: none;
+  position: absolute;
+  border-color: rgba(255, 248, 242, 0);
+  border-top-width: 23px;
+  border-bottom-width: 23px;
+  border-left-width: 10px;
+  border-right-width: 10px;
+  margin-left: -10px;
+  border-bottom-color: #fff8f2b7;
+  bottom: 100%;
+  left: 72%;
+}
+
+.hero .catch img {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero .catch h1 {
+  font-size: 20px;
   margin-left: 5px;
-  padding: 10px;
-  /* 余白指定 */
-  display: flex;
-  flex-wrap: wrap;
-  align-items: stretch;
-  width: 95%;
-  /* 縦の位置指定 */
+  margin-top: -10px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  font-family: 'Hina Mincho', serif;
+}
+.hero .catch h5{
+  font-size: 14px;
 }
 
-.hero .catch .flex_item {
-  /* box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24),
-    0 17px 50px 0 rgba(0, 0, 0, 0.19); */
-  background: rgba(139, 139, 139, 0.062);
-  /* 背景色指定 */
-  padding: 10px;
-  color: rgb(243, 243, 243);
-  /* 文字色 */
-  margin: 5px;
-  /* 外側の余白 */
-  border-radius: 2px;
-  border: solid 2px transparent;
-  background-clip: padding-box;
-  width: 100%;
-  /* 幅指定 */
-  min-height: 175px;
-  backdrop-filter: blur(40px);
-  -webkit-filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.8));
-  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.603));
-}
-
-.hero .catch .flex_item .cardimg {
-  display: flex;
-  justify-content: space-between;
-}
-
-.hero .catch .flex_item .cardimg img {
-  width: 45%;
-  height: 175px;
-  opacity: 0.7;
-  object-fit: cover;
-}
-
-.hero .catch .flex_item .carditem {
-  width: 58%;
-}
-
-.hero .catch .flex_item .button {
-  margin-top: 22px;
-  text-align: end;
-}
-
-.hero .catch .flex_item .button a {
-  font-family: "Montserrat", sans-serif;
-  text-decoration: none;
-  background: #adadad23;
-  color: white;
-  border: 1px solid white;
-  padding: 24px 40px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  font-size: 10px;
-  transition: 0.3s;
-}
-
-.hero .catch .flex_item .button:hover a {
-  background: white;
-  color: #121212;
-  transition: 0.3s;
-}
 
 /*スケジュール*/
 .event li {
@@ -256,33 +236,12 @@ svg {
     max-height: 100%;
     height: 105vh;
   }
-
-  .hero .catch .flex_item .button {
-    margin-top: 20px;
-    text-align: end;
+  .hero .catch h1 {
+    font-size: 17px;
+    margin-bottom: 30px;
   }
-
-  .hero .catch .flex_item .button a {
-    padding: 20px 20px;
-    letter-spacing: 4px;
-    font-size: 8px;
-    transition: 0.3s;
-  }
-
-  .hero .catch .flex_item {
-    /* 幅指定 */
-    min-height: 145px;
+  .hero .catch h5{
     font-size: 12px;
-  }
-
-  .hero .catch .flex_item h2 {
-    font-size: 16px;
-  }
-
-  .hero .catch .flex_item .cardimg img {
-    width: 45%;
-    height: 95px;
-    object-fit: cover;
   }
 }
 
@@ -301,31 +260,10 @@ svg {
   }
 
   .hero .catch h1 {
-    font-size: 100px;
+    font-size: 30px;
     margin-bottom: 30px;
   }
-
-  .hero .catch h2 {
-    font-size: 18px;
-  }
-
-  .hero .catch .basic h2 {
-    font-size: 30px;
-  }
-
-  .hero .catch .basic a {
-    font-size: 20px;
-  }
-
-  .hero .catch .flex_box {
-    justify-content: space-between;
-  }
-
-  .hero .catch .flex_item {
-    width: 45%;
-  }
-
-  .hero .catch .flex_item h2 {
+  .hero .catch h5{
     font-size: 18px;
   }
 
@@ -337,20 +275,15 @@ svg {
 
 @media (min-width: 900px) {
   .hero .catch h1 {
-    font-size: 100px;
+    font-size: 40px;
     margin-bottom: 30px;
   }
-
-  .hero .catch h2 {
+  .hero .catch h1 {
+    font-size: 35px;
+    margin-bottom: 30px;
+  }
+  .hero .catch h5{
     font-size: 20px;
-  }
-
-  .hero .catch .flex_box {
-    justify-content: space-between;
-  }
-
-  .hero .catch .flex_tem {
-    width: 45%;
   }
 
   .event li {
