@@ -30,7 +30,7 @@ export default () => (
               <Link to={`/about/`}>ABOUT</Link>
             </li>
             <li>
-              <Link to={`/blog/`}>BLOG</Link>
+            <a href="https://www.instagram.com/dhnoneo">Bly'の投稿</a>
             </li>
             <li>
               <Link to={`/schedule/`}>SCHEDULE</Link>
